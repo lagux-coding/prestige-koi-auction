@@ -33,6 +33,7 @@
 ## :ledger: Index
 
 - [About](#beginner-about)
+- [Features Overview](#features-overview)
 - [Usage](#zap-usage)
   - [Installation](#electric_plug-installation)
   - [Commands](#package-commands)
@@ -53,7 +54,36 @@
 - [License](#lock-license)
 
 ##  :beginner: About
-Add a detailed introduction about the project here, everything you want the reader to know.
+**Prestige Koi Auction** is a modern and user-friendly platform designed to facilitate the buying and selling of koi fish through live auctions. Built with scalability and transparency in mind, this platform enables **Koi Breeders**, **Managers**, **Staff**, and **Members** to interact seamlessly while maintaining fair and organized auctions.  
+
+The system emphasizes:  
+- **Efficient Management**: Streamlined processes for request approvals, inspections, and slot assignments.  
+- **Financial Transparency**: Clear records of deposits, refunds, payments, and fees.  
+- **Seamless User Experience**: Intuitive interfaces for both auction participants and administrators.  
+
+## 🚀 **Features Overview**  
+
+### 🎨 **User Management**  
+- **Multiple Roles**: Supports **Koi Breeder**, **Manager**, **Staff**, **Member**, and **Guest**.  
+- **Secure Authentication**: Powered by **JWT (JSON Web Tokens)**.  
+
+### 📋 **Auction Management**  
+- **Auction Sessions**:  
+  - Managers create auction sessions with multiple lots.  
+  - Each lot represents one koi fish for bidding.  
+- **Request Approval Process**:  
+  - KoiBreeders submit auction requests.  
+  - Managers approve requests or assign inspections to Staff.  
+
+### 💳 **Financial Transactions**  
+- **Deposits and Refunds**:  
+  - Members pay deposits to join auctions, and refunds are processed for non-winning participants.  
+- **Automated Payments**:  
+  - Winning bids are processed, and proceeds are shared with breeders after platform fees are deducted.  
+
+### 📈 **Transparency & Insights**  
+- Real-time auction status.  
+- Detailed transaction history.
 
 ## :zap: Usage
 Write about how to use this project.
