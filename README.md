@@ -30,12 +30,12 @@
 </div>
 
 
-## :ledger: Index
+## :ledger: Table of Contents
 
 - [About](#beginner-about)
 - [Features Overview](#-features-overview)
 - [Project Structure](#-project-structure)
-- [Usage](#usage)
+- [Usage](#-usage)
 - [Gallery](#camera-gallery)
 - [License](#lock-license)
 
@@ -98,7 +98,7 @@ prestige-koi-auction/
 └── README.md        # Project documentation
 ````
 
-## ⚙️ Usage
+##⚙️ Usage
 ***
     This guideline is only for Windows 
 
