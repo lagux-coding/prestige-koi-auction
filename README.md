@@ -89,7 +89,7 @@ The system emphasizes:
 
 | **Category**         | **Technologies**                     |  
 |-----------------------|---------------------------------------|  
-| **Backend**          | Java, Spring Boot, MySQL             |  
+| **Backend**          | Java, Spring Boot, Microsoft Sql Server|  
 | **Frontend**         | React/Vue/Angular, Bootstrap/Tailwind |  
 | **Authentication**   | JWT (JSON Web Tokens)                |  
 | **DevOps**           | Docker, Docker Compose, GitHub       |  
