@@ -1,7 +1,7 @@
 # Introduction
 <div align="center">
     <!-- Badges -->
-    <a href="https://github.com/YousefIbrahimismail/Project-README-Template/blob/main/LICENSE.txt">
+    <a href="./LICENSE">
         <img alt="GitHub license" src="https://img.shields.io/github/license/YousefIbrahimismail/Project-README-Template?color=ff69b4&style=for-the-badge">
     </a>
     <a href="https://github.com/YousefIbrahimismail/Project-README-Template/issues">
@@ -160,4 +160,4 @@ prestige-koi-auction/
 
 
 ##  :lock: License
-[LICENSE]()
+[LICENSE](./LICENSE)
