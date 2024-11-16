@@ -85,6 +85,15 @@ The system emphasizes:
 - Real-time auction status.  
 - Detailed transaction history.
 
+## 🛠️ **Tech Stack**  
+
+| **Category**         | **Technologies**                     |  
+|-----------------------|---------------------------------------|  
+| **Backend**          | Java, Spring Boot, MySQL             |  
+| **Frontend**         | React/Vue/Angular, Bootstrap/Tailwind |  
+| **Authentication**   | JWT (JSON Web Tokens)                |  
+| **DevOps**           | Docker, Docker Compose, GitHub       |  
+
 ## :zap: Usage
 Write about how to use this project.
 
