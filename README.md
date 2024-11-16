@@ -35,7 +35,7 @@
 - [About](#beginner-about)
 - [Features Overview](#-features-overview)
 - [Project Structure](#-project-structure)
-- [Usage](#-usage)
+- [Usage](#usage)
 - [Gallery](#camera-gallery)
 - [License](#lock-license)
 
