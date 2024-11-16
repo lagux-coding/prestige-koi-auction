@@ -35,7 +35,7 @@
 - [About](#beginner-about)
 - [Features Overview](#-features-overview)
 - [Project Structure](#-project-structure)
-- [Usage](#-usage)
+- [Usage](#zap-usage)
 - [Gallery](#camera-gallery)
 - [License](#lock-license)
 
@@ -98,7 +98,7 @@ prestige-koi-auction/
 └── README.md        # Project documentation
 ````
 
-##⚙️ Usage
+## :zap: Usage
 ***
     This guideline is only for Windows 
 
