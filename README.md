@@ -33,7 +33,7 @@
 ## :ledger: Index
 
 - [About](#beginner-about)
-- [Features Overview](#features-overview)
+- [Features Overview](#-features-overview)
 - [Usage](#zap-usage)
   - [Installation](#electric_plug-installation)
   - [Commands](#package-commands)
