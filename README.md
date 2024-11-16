@@ -90,131 +90,88 @@ The system emphasizes:
 | **Category**         | **Technologies**                     |  
 |-----------------------|---------------------------------------|  
 | **Backend**          | Java, Spring Boot, Microsoft Sql Server|  
-| **Frontend**         | React/Vue/Angular, Bootstrap/Tailwind |  
+| **Frontend**         | React, Vite, Tailwind                |  
 | **Authentication**   | JWT (JSON Web Tokens)                |  
-| **DevOps**           | Docker, Docker Compose, GitHub       |  
+| **DevOps**           | Docker, GitHub, Jenkins, AWS EC2       |  
 
-## :zap: Usage
-Write about how to use this project.
+## 📂 **Project Structure**  
 
-###  :electric_plug: Installation
-- Steps on how to install this project, to use it.
-- Be very detailed here, For example, if you have tools which run on different operating systems, write installation steps for all of them.
+```plaintext  
+prestige-koi-auction/  
+│  
+├── backend/         # Spring Boot backend source code  
+│   ├── src/  
+│   ├── pom.xml  
+│   └── ...  
+│  
+├── frontend/        # Frontend source code (React/Vue/Angular)  
+│   ├── src/  
+│   ├── package.json  
+│   └── ...  
+│  
+└── README.md        # Project documentation
+````
 
-```
-$ add installations steps if you have to.
-```
+## ⚙️ Usage
+***
+    This guideline is only for Windows 
 
-###  :package: Commands
-- Commands to start the project.
+### Environment Requirements
+- Java 21
+- Node.js 18+
+- MSSQL 2019+
+- Maven 3.9+
+- Redis
 
-##  :wrench: Development
-If you want other people to contribute to this project, this is the section, make sure you always add this.
+### Tools requirements
+- Intellij IDEA (or Commuity edition)
+- Visual Studio Code (or anything code editor)
 
-### :notebook: Pre-Requisites
-List all the pre-requisites the system needs to develop this project.
-- A tool
-- B tool
+### Installation
 
-###  :nut_and_bolt: Development Environment
-Write about setting up the working environment for your project.
-- How to download the project...
-- How to install dependencies...
+#### Front-End
+- Install library:
+    ````bash
+    npm install
+    ````
+- Run project:
+    ````bash
+    npm run dev
+    ````
 
-
-###  :file_folder: File Structure
-Add a file structure here with the basic details about files, below is an example.
-
-```
-.
-├── assets
-│   ├── css
-│   │   ├── index-ui.css
-│   │   └── rate-ui.css
-│   ├── images
-│   │   ├── icons
-│   │   │   ├── shrink-button.png
-│   │   │   └── umbrella.png
-│   │   ├── logo_144.png
-│   │   └── Untitled-1.psd
-│   └── javascript
-│       ├── index.js
-│       └── rate.js
-├── CNAME
-├── index.html
-├── rate.html
-└── README.md
-```
-
-| No | File Name | Details 
-|----|------------|-------|
-| 1  | index | Entry point
-
-###  :hammer: Build
-Write the build Instruction here.
-
-### :rocket: Deployment
-Write the deployment instruction here.
-
-## :cherry_blossom: Community
-
-If it's open-source, talk about the community here, ask social media links and other links.
-
- ###  :fire: Contribution
-
- Your contributions are always welcome and appreciated. Following are the things you can do to contribute to this project.
-
- 1. **Report a bug** <br>
- If you think you have encountered a bug, and I should know about it, feel free to report it [here]() and I will take care of it.
-
- 2. **Request a feature** <br>
- You can also request for a feature [here](), and if it will viable, it will be picked for development.  
-
- 3. **Create a pull request** <br>
- It can't get better then this, your pull request will be appreciated by the community. You can get started by picking up any open issues from [here]() and make a pull request.
-
- > If you are new to open-source, make sure to check read more about it [here](https://www.digitalocean.com/community/tutorial_series/an-introduction-to-open-source) and learn more about creating a pull request [here](https://www.digitalocean.com/community/tutorials/how-to-create-a-pull-request-on-github).
-
-
- ### :cactus: Branches
-
- I use an agile continuous integration methodology, so the version is frequently updated and development is really fast.
-
-1. **`stage`** is the development branch.
-
-2. **`master`** is the production branch.
-
-3. No other permanent branches should be created in the main repository, you can create feature branches but they should get merged with the master.
-
-**Steps to work with feature branch**
-
-1. To start working on a new feature, create a new branch prefixed with `feat` and followed by feature name. (ie. `feat-FEATURE-NAME`)
-2. Once you are done with your changes, you can raise PR.
-
-**Steps to create a pull request**
-
-1. Make a PR to `stage` branch.
-2. Comply with the best practices and guidelines e.g. where the PR concerns visual elements it should have an image showing the effect.
-3. It must pass all continuous integration checks and get positive reviews.
-
-After this, changes will be merged.
-
-
-### :exclamation: Guideline
-coding guidelines or other things you want people to follow should follow.
-
-
-## :question: FAQ
-You can optionally add a FAQ section about the project.
-
-##  :page_facing_up: Resources
-Add important resources here
+#### Back-End
+- Intellij will automatically install all libraries in the pom.xml file
+- Before run project, please unzip [Redis](./Redis-x64-5.0.14.1.zip)
+- Run **redis-server.exe** file to run redis server
+- Run project by click on play button
 
 ##  :camera: Gallery
-Pictures of your project.
+### Demo
+<div align="center">
+    <img alt="demo" src="https://github.com/user-attachments/assets/2404cfdf-2f6c-497f-b9d6-dd281017b79a">
+</div>
 
-## :star2: Credit/Acknowledgment
-Credit the authors here.
+### Manager screen
+<div align="center">
+    <img alt="demo" src="https://github.com/user-attachments/assets/3844b8ad-5df8-43bd-96a0-81e8d506b0d2">
+</div>
+
+### Member screen
+<div align="center">
+    <img alt="demo" src="https://github.com/user-attachments/assets/e14fd4dd-0308-4e06-a0d6-019f180a696e">
+</div>
+
+### Staff screen
+<div align="center">
+    <img alt="demo" src="https://github.com/user-attachments/assets/c83c1b3e-8093-487d-877e-26dc91ed05e2">
+</div>
+
+### Koi Breeder screen
+<div align="center">
+    <img alt="demo" src="https://github.com/user-attachments/assets/37834407-7296-42f4-9594-76b4bae78b26">
+    <img alt="demo" src="https://github.com/user-attachments/assets/3421acf5-cd42-4a04-a0d4-6e4bc63bbd91">
+</div>
+
 
 ##  :lock: License
-Add a license here, or a link to it.
+[LICENSE]()
