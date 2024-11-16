@@ -26,7 +26,7 @@
 
 <div align="center">
     <!-- Title -->
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&repeat=false&width=435&lines=Prestige+Koi+Auction">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&repeat=false&width=435&lines=Prestige+Koi+Auction+-+An+platform+for+auctioning+koi+fish">
 </div>
 
 
