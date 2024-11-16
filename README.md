@@ -4,10 +4,10 @@
     <a href="./LICENSE">
         <img alt="GitHub license" src="https://img.shields.io/github/license/YousefIbrahimismail/Project-README-Template?color=ff69b4&style=for-the-badge">
     </a>
-    <a href="https://github.com/YousefIbrahimismail/Project-README-Template/issues">
+    <a href="https://github.com/lagux-coding/prestige-koi-auction/issues">
         <img alt="GitHub issues" src="https://img.shields.io/github/issues/YousefIbrahimismail/Project-README-Template?color=brightgreen&label=issues&style=for-the-badge">
     </a>
-    <a href="https://github.com/YousefIbrahimismail/Project-README-Template/network">
+    <a href="https://github.com/lagux-coding/prestige-koi-auction/network">
         <img alt="GitHub forks" src="https://img.shields.io/github/forks/YousefIbrahimismail/Project-README-Template?color=9cf&label=forks&style=for-the-badge">
     </a>
 </div>
