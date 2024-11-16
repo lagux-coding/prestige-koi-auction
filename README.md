@@ -1,25 +1,34 @@
 # Introduction
-- Add your project logo.
-- Write a short introduction to the project.
 <div align="center">
-    <a href="https://github.com/YousefIbrahimismail/Project-README-Template/blob/main/LICENSE.txt"><img alt="GitHub license" src="https://img.shields.io/github/license/YousefIbrahimismail/Project-README-Template?color=ff69b4&style=for-the-badge"></a>
-    <a href="https://github.com/YousefIbrahimismail/Project-README-Template/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/YousefIbrahimismail/Project-README-Template?color=brightgreen&label=issues&style=for-the-badge"></a>
-    <a href="https://github.com/YousefIbrahimismail/Project-README-Template/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/YousefIbrahimismail/Project-README-Template?color=9cf&label=forks&style=for-the-badge"></a>
+    <!-- Badges -->
+    <a href="https://github.com/YousefIbrahimismail/Project-README-Template/blob/main/LICENSE.txt">
+        <img alt="GitHub license" src="https://img.shields.io/github/license/YousefIbrahimismail/Project-README-Template?color=ff69b4&style=for-the-badge">
+    </a>
+    <a href="https://github.com/YousefIbrahimismail/Project-README-Template/issues">
+        <img alt="GitHub issues" src="https://img.shields.io/github/issues/YousefIbrahimismail/Project-README-Template?color=brightgreen&label=issues&style=for-the-badge">
+    </a>
+    <a href="https://github.com/YousefIbrahimismail/Project-README-Template/network">
+        <img alt="GitHub forks" src="https://img.shields.io/github/forks/YousefIbrahimismail/Project-README-Template?color=9cf&label=forks&style=for-the-badge">
+    </a>
 </div>
+
 <br>
 
-<!--Logo-->
 <div align="center">
-    <a href="" target="_blank">
+    <!-- Logo -->
+    <a href="#" target="_blank">
         <img src="https://github.com/user-attachments/assets/c9ab7a1c-589f-4bda-984a-2fe267b43aae" 
         alt="Logo" width="290" height="290">
     </a>
 </div>
 
-<!--Title-->
+<br>
+
 <div align="center">
+    <!-- Title -->
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&repeat=false&width=435&lines=Prestige+Koi+Auction">
 </div>
+
 
 ## :ledger: Index
 
