@@ -64,6 +64,14 @@ public class AccountController {
 
     }
 
+    @GetMapping("/create-manager-account")
+    public ResponseData<?> createManagerAccount(){
+        if(accountService.createManagerAccount() == null){
+            return new ResponseData<>(ResponseCode.FAIL);
+        }
+        return new ResponseData(ResponseCode.SUCCESS);
+    }
+
     @PostMapping("/refreshToken")
     public ResponseData<?> refresh(@Valid HttpServletRequest request) throws AccountNotFoundException {
 
