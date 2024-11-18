@@ -101,6 +101,36 @@ prestige-koi-auction/
 
 ### Installation
 
+#### Database
+- We use **localhost** and database name is **Koi_project** for SQL Server in **application.properties**. You can change this based on your device
+    ````bash
+    sqlserver://localhost:1433;databaseName=Koi_project
+    ````
+-  In SQL Server, the **Koi_project** database must already exist, if not,  please use query below: 
+    ````bash
+    CREATE DATABASE Koi_project
+    ````
+- After created **Koi_project** database. Run the **Spring Boot back-end** for the first time so it automatically creates tables and records
+
+- Now, the project also needs to have the data available using the query below:
+    ````bash
+    INSERT INTO AuctionType(auctionTypeName) VALUES('FIXED_PRICE_SALE')
+    INSERT INTO AuctionType(auctionTypeName) VALUES('SEALED_BID')
+    INSERT INTO AuctionType(auctionTypeName) VALUES('ASCENDING_BID')
+    INSERT INTO AuctionType(auctionTypeName) VALUES('DESCENDING_BID')
+    
+    INSERT INTO Variety(varietyName) VALUES('Kohaku')
+    INSERT INTO Variety(varietyName) VALUES('Taisho Sanke')
+    INSERT INTO Variety(varietyName) VALUES('Showa')
+    INSERT INTO Variety(varietyName) VALUES('Shiro Utsuri')
+    INSERT INTO Variety(varietyName) VALUES('Utsurimono')
+    INSERT INTO Variety(varietyName) VALUES('Beni Kikokuryu')
+    INSERT INTO Variety(varietyName) VALUES('Asagi')
+    INSERT INTO Variety(varietyName) VALUES('Kikokuryu')
+    INSERT INTO Variety(varietyName) VALUES('Hikari Muji')
+    INSERT INTO Variety(varietyName) VALUES('Goshiki')
+    ````
+
 #### Front-End
 - Install library:
     ````bash
