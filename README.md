@@ -115,7 +115,7 @@ prestige-koi-auction/
 - Node.js 18+
 - MSSQL 2019+
 - Maven 3.9+
-- Redis
+- [Redis server](https://github.com/lagux-coding/prestige-koi-auction/blob/main/Redis-x64-5.0.14.1.zip)
 
 ### Tools requirements
 - Intellij IDEA (or Commuity edition)
