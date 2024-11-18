@@ -175,7 +175,7 @@ spring.datasource.password=Password@123
     <a href="#ledger-table-of-contents">Back to Table of Contents</a>
 </div>
 
-## :notebook_with_decorative_cover: Note
+## :notebook_with_decorative_cover: Notes
 ***
 - Before fully using the app, we must create **Manager**, **Staff** and **Koi breeder** account first by follow these step:
     - Open **Postman**
