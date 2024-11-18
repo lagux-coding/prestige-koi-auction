@@ -1,18 +1,4 @@
 # Introduction
-<div align="center">
-    <!-- Badges -->
-    <a href="https://github.com/YousefIbrahimismail/Project-README-Template/blob/main/LICENSE.txt">
-        <img alt="GitHub license" src="https://img.shields.io/github/license/YousefIbrahimismail/Project-README-Template?color=ff69b4&style=for-the-badge">
-    </a>
-    <a href="https://github.com/YousefIbrahimismail/Project-README-Template/issues">
-        <img alt="GitHub issues" src="https://img.shields.io/github/issues/YousefIbrahimismail/Project-README-Template?color=brightgreen&label=issues&style=for-the-badge">
-    </a>
-    <a href="https://github.com/YousefIbrahimismail/Project-README-Template/network">
-        <img alt="GitHub forks" src="https://img.shields.io/github/forks/YousefIbrahimismail/Project-README-Template?color=9cf&label=forks&style=for-the-badge">
-    </a>
-</div>
-
-<br>
 
 <div align="center">
     <!-- Logo -->
@@ -30,27 +16,14 @@
 </div>
 
 
-## :ledger: Index
+## :ledger: Table of Contents
 
 - [About](#beginner-about)
 - [Features Overview](#-features-overview)
+- [Project Structure](#-project-structure)
 - [Usage](#zap-usage)
-  - [Installation](#electric_plug-installation)
-  - [Commands](#package-commands)
-- [Development](#wrench-development)
-  - [Pre-Requisites](#notebook-pre-requisites)
-  - [Developmen Environment](#nut_and_bolt-development-environment)
-  - [File Structure](#file_folder-file-structure)
-  - [Build](#hammer-build)  
-  - [Deployment](#rocket-deployment)  
-- [Community](#cherry_blossom-community)
-  - [Contribution](#fire-contribution)
-  - [Branches](#cactus-branches)
-  - [Guideline](#exclamation-guideline)  
-- [FAQ](#question-faq)
-- [Resources](#page_facing_up-resources)
+- [Notes](#notebook_with_decorative_cover-notes)
 - [Gallery](#camera-gallery)
-- [Credit/Acknowledgment](#star2-creditacknowledgment)
 - [License](#lock-license)
 
 ##  :beginner: About
@@ -60,6 +33,11 @@ The system emphasizes:
 - **Efficient Management**: Streamlined processes for request approvals, inspections, and slot assignments.  
 - **Financial Transparency**: Clear records of deposits, refunds, payments, and fees.  
 - **Seamless User Experience**: Intuitive interfaces for both auction participants and administrators.  
+
+<br>
+<div align="right">
+    <a href="#ledger-table-of-contents">Back to Table of Contents</a>
+</div>
 
 ## 🚀 **Features Overview**  
 
@@ -85,136 +63,167 @@ The system emphasizes:
 - Real-time auction status.  
 - Detailed transaction history.
 
+<br>
+<div align="right">
+    <a href="#ledger-table-of-contents">Back to Table of Contents</a>
+</div>
+
 ## 🛠️ **Tech Stack**  
 
 | **Category**         | **Technologies**                     |  
 |-----------------------|---------------------------------------|  
 | **Backend**          | Java, Spring Boot, Microsoft Sql Server|  
-| **Frontend**         | React/Vue/Angular, Bootstrap/Tailwind |  
+| **Frontend**         | React, Vite, Tailwind                |  
 | **Authentication**   | JWT (JSON Web Tokens)                |  
-| **DevOps**           | Docker, Docker Compose, GitHub       |  
+| **DevOps**           | Docker, GitHub, Jenkins, AWS EC2       |  
+
+<br>
+<div align="right">
+    <a href="#ledger-table-of-contents">Back to Table of Contents</a>
+</div>
+
+## 📂 **Project Structure**  
+
+```plaintext  
+prestige-koi-auction/  
+│  
+├── backend/         # Spring Boot backend source code  
+│   ├── src/  
+│   ├── pom.xml  
+│   └── ...  
+│  
+├── frontend/        # Frontend source code (React/Vue/Angular)  
+│   ├── src/  
+│   ├── package.json  
+│   └── ...  
+│  
+└── README.md        # Project documentation
+````
+<br>
+<div align="right">
+    <a href="#-table-of-contents">Back to Table of Contents</a>
+</div>
 
 ## :zap: Usage
-Write about how to use this project.
+***
+    This guideline is only for Windows 
 
-###  :electric_plug: Installation
-- Steps on how to install this project, to use it.
-- Be very detailed here, For example, if you have tools which run on different operating systems, write installation steps for all of them.
+### Environment Requirements
+- Java 21
+- Node.js 18+
+- MSSQL 2019+
+- Maven 3.9+
+- Redis
 
-```
-$ add installations steps if you have to.
-```
+### Tools requirements
+- Intellij IDEA (or Commuity edition)
+- Visual Studio Code (or anything code editor)
+- Postman
 
-###  :package: Commands
-- Commands to start the project.
+### Installation
 
-##  :wrench: Development
-If you want other people to contribute to this project, this is the section, make sure you always add this.
+#### Database
+- We use **localhost** and database name is **Koi_project** for SQL Server in **application.properties**. You can change this based on your device
+    ````bash
+    spring.datasource.url=jdbc:sqlserver://localhost:1433;databaseName=Koi_project;encrypt=true;trustServerCertificate=true
+spring.datasource.username=sa
+spring.datasource.password=Password@123
+    ````
+-  In SQL Server, the **Koi_project** database must already exist, if not,  please use query below: 
+    ````bash
+    CREATE DATABASE Koi_project
+    ````
+- After created **Koi_project** database. Run the [**Spring Boot back-end**](#back-end) for the first time so it automatically creates tables and records
 
-### :notebook: Pre-Requisites
-List all the pre-requisites the system needs to develop this project.
-- A tool
-- B tool
+- Now, the project also needs to have the data available using the query below:
+    ````bash
+    INSERT INTO AuctionType(auctionTypeName) VALUES('FIXED_PRICE_SALE')
+    INSERT INTO AuctionType(auctionTypeName) VALUES('SEALED_BID')
+    INSERT INTO AuctionType(auctionTypeName) VALUES('ASCENDING_BID')
+    INSERT INTO AuctionType(auctionTypeName) VALUES('DESCENDING_BID')
+    
+    INSERT INTO Variety(varietyName) VALUES('Kohaku')
+    INSERT INTO Variety(varietyName) VALUES('Taisho Sanke')
+    INSERT INTO Variety(varietyName) VALUES('Showa')
+    INSERT INTO Variety(varietyName) VALUES('Shiro Utsuri')
+    INSERT INTO Variety(varietyName) VALUES('Utsurimono')
+    INSERT INTO Variety(varietyName) VALUES('Beni Kikokuryu')
+    INSERT INTO Variety(varietyName) VALUES('Asagi')
+    INSERT INTO Variety(varietyName) VALUES('Kikokuryu')
+    INSERT INTO Variety(varietyName) VALUES('Hikari Muji')
+    INSERT INTO Variety(varietyName) VALUES('Goshiki')
+    ````
 
-###  :nut_and_bolt: Development Environment
-Write about setting up the working environment for your project.
-- How to download the project...
-- How to install dependencies...
+#### Back-End
+- Intellij will automatically install all libraries in the pom.xml file
+- Before run project, please unzip [Redis](./Redis-x64-5.0.14.1.zip)
+- Run **redis-server.exe** file to run redis server
+- Run project by click on play button
 
+#### Front-End
+- Install library:
+    ````bash
+    npm install
+    ````
+- Run project:
+    ````bash
+    npm run dev
+    ````
 
-###  :file_folder: File Structure
-Add a file structure here with the basic details about files, below is an example.
+<br>
+<div align="right">
+    <a href="#ledger-table-of-contents">Back to Table of Contents</a>
+</div>
 
-```
-.
-├── assets
-│   ├── css
-│   │   ├── index-ui.css
-│   │   └── rate-ui.css
-│   ├── images
-│   │   ├── icons
-│   │   │   ├── shrink-button.png
-│   │   │   └── umbrella.png
-│   │   ├── logo_144.png
-│   │   └── Untitled-1.psd
-│   └── javascript
-│       ├── index.js
-│       └── rate.js
-├── CNAME
-├── index.html
-├── rate.html
-└── README.md
-```
+## :notebook_with_decorative_cover: Notes
+***
+- Before fully using the app, we must create **Manager**, **Staff** and **Koi breeder** account first by follow these step:
+    - Open **Postman**
+    - ```Ctrl + N``` then choose HTTP
+    - Switch to ```GET``` method, then enter this endpoint:
+        ````bash
+        http://localhost:8080/authenticate/create-manager-account
+        ````
+    - Send request then in response you will see ```Successfully```.             **Manager** account available now
+    - To create **Staff** and **Koi Breeder** you can use create function of     manager on website. Therefore you just need only **Manager** account 
+***
 
-| No | File Name | Details 
-|----|------------|-------|
-| 1  | index | Entry point
-
-###  :hammer: Build
-Write the build Instruction here.
-
-### :rocket: Deployment
-Write the deployment instruction here.
-
-## :cherry_blossom: Community
-
-If it's open-source, talk about the community here, ask social media links and other links.
-
- ###  :fire: Contribution
-
- Your contributions are always welcome and appreciated. Following are the things you can do to contribute to this project.
-
- 1. **Report a bug** <br>
- If you think you have encountered a bug, and I should know about it, feel free to report it [here]() and I will take care of it.
-
- 2. **Request a feature** <br>
- You can also request for a feature [here](), and if it will viable, it will be picked for development.  
-
- 3. **Create a pull request** <br>
- It can't get better then this, your pull request will be appreciated by the community. You can get started by picking up any open issues from [here]() and make a pull request.
-
- > If you are new to open-source, make sure to check read more about it [here](https://www.digitalocean.com/community/tutorial_series/an-introduction-to-open-source) and learn more about creating a pull request [here](https://www.digitalocean.com/community/tutorials/how-to-create-a-pull-request-on-github).
-
-
- ### :cactus: Branches
-
- I use an agile continuous integration methodology, so the version is frequently updated and development is really fast.
-
-1. **`stage`** is the development branch.
-
-2. **`master`** is the production branch.
-
-3. No other permanent branches should be created in the main repository, you can create feature branches but they should get merged with the master.
-
-**Steps to work with feature branch**
-
-1. To start working on a new feature, create a new branch prefixed with `feat` and followed by feature name. (ie. `feat-FEATURE-NAME`)
-2. Once you are done with your changes, you can raise PR.
-
-**Steps to create a pull request**
-
-1. Make a PR to `stage` branch.
-2. Comply with the best practices and guidelines e.g. where the PR concerns visual elements it should have an image showing the effect.
-3. It must pass all continuous integration checks and get positive reviews.
-
-After this, changes will be merged.
-
-
-### :exclamation: Guideline
-coding guidelines or other things you want people to follow should follow.
-
-
-## :question: FAQ
-You can optionally add a FAQ section about the project.
-
-##  :page_facing_up: Resources
-Add important resources here
+<br>
+<div align="right">
+    <a href="#ledger-table-of-contents">Back to Table of Contents</a>
+</div>
 
 ##  :camera: Gallery
-Pictures of your project.
+### Demo
+<div align="center">
+    <img alt="demo" src="https://github.com/user-attachments/assets/2404cfdf-2f6c-497f-b9d6-dd281017b79a">
+</div>
 
-## :star2: Credit/Acknowledgment
-Credit the authors here.
+### Manager screen
+<div align="center">
+    <img alt="demo" src="https://github.com/user-attachments/assets/3844b8ad-5df8-43bd-96a0-81e8d506b0d2">
+</div>
+
+### Member screen
+<div align="center">
+    <img alt="demo" src="https://github.com/user-attachments/assets/e14fd4dd-0308-4e06-a0d6-019f180a696e">
+</div>
+
+### Staff screen
+<div align="center">
+    <img alt="demo" src="https://github.com/user-attachments/assets/c83c1b3e-8093-487d-877e-26dc91ed05e2">
+</div>
+
+### Koi Breeder screen
+<div align="center">
+    <img alt="demo" src="https://github.com/user-attachments/assets/37834407-7296-42f4-9594-76b4bae78b26">
+    <img alt="demo" src="https://github.com/user-attachments/assets/3421acf5-cd42-4a04-a0d4-6e4bc63bbd91">
+</div>
+<br>
+<div align="right">
+    <a href="#ledger-table-of-contents">Back to Table of Contents</a>
+</div>
+
 
 ##  :lock: License
-Add a license here, or a link to it.
+[LICENSE](./LICENSE)
