@@ -101,7 +101,7 @@ prestige-koi-auction/
 ````
 <br>
 <div align="right">
-    <a href="#-table-of-contents">Back to Table of Contents</a>
+    <a href="#ledger-table-of-contents">Back to Table of Contents</a>
 </div>
 
 ## :zap: Usage
@@ -125,9 +125,9 @@ prestige-koi-auction/
 #### Database
 - We use **localhost** and database name is **Koi_project** for SQL Server in **application.properties**. You can change this based on your device
     ````bash
-    spring.datasource.url=jdbc:sqlserver://localhost:1433;databaseName=Koi_project;encrypt=true;trustServerCertificate=true
-spring.datasource.username=sa
-spring.datasource.password=Password@123
+  spring.datasource.url=jdbc:sqlserver://localhost:1433;databaseName=Koi_project;encrypt=true;trustServerCertificate=true
+  spring.datasource.username=sa
+  spring.datasource.password=Password@123
     ````
 -  In SQL Server, the **Koi_project** database must already exist, if not,  please use query below: 
     ````bash
