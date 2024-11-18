@@ -110,7 +110,7 @@ prestige-koi-auction/
     ````bash
     CREATE DATABASE Koi_project
     ````
-- After created **Koi_project** database. Run the **Spring Boot back-end** for the first time so it automatically creates tables and records
+- After created **Koi_project** database. Run the [**Spring Boot back-end**](#back-end) for the first time so it automatically creates tables and records
 
 - Now, the project also needs to have the data available using the query below:
     ````bash
@@ -131,6 +131,12 @@ prestige-koi-auction/
     INSERT INTO Variety(varietyName) VALUES('Goshiki')
     ````
 
+#### Back-End
+- Intellij will automatically install all libraries in the pom.xml file
+- Before run project, please unzip [Redis](./Redis-x64-5.0.14.1.zip)
+- Run **redis-server.exe** file to run redis server
+- Run project by click on play button
+
 #### Front-End
 - Install library:
     ````bash
@@ -140,12 +146,6 @@ prestige-koi-auction/
     ````bash
     npm run dev
     ````
-
-#### Back-End
-- Intellij will automatically install all libraries in the pom.xml file
-- Before run project, please unzip [Redis](./Redis-x64-5.0.14.1.zip)
-- Run **redis-server.exe** file to run redis server
-- Run project by click on play button
 
 ##  :camera: Gallery
 ### Demo
