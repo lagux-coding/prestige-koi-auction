@@ -33,6 +33,11 @@ The system emphasizes:
 - **Financial Transparency**: Clear records of deposits, refunds, payments, and fees.  
 - **Seamless User Experience**: Intuitive interfaces for both auction participants and administrators.  
 
+<br>
+<div align="right">
+    <a href="#-table-of-contents">Back to Table of Contents</a>
+</div>
+
 ## 🚀 **Features Overview**  
 
 ### 🎨 **User Management**  
@@ -57,6 +62,11 @@ The system emphasizes:
 - Real-time auction status.  
 - Detailed transaction history.
 
+<br>
+<div align="right">
+    <a href="#-table-of-contents">Back to Table of Contents</a>
+</div>
+
 ## 🛠️ **Tech Stack**  
 
 | **Category**         | **Technologies**                     |  
@@ -65,6 +75,11 @@ The system emphasizes:
 | **Frontend**         | React, Vite, Tailwind                |  
 | **Authentication**   | JWT (JSON Web Tokens)                |  
 | **DevOps**           | Docker, GitHub, Jenkins, AWS EC2       |  
+
+<br>
+<div align="right">
+    <a href="#-table-of-contents">Back to Table of Contents</a>
+</div>
 
 ## 📂 **Project Structure**  
 
@@ -83,6 +98,10 @@ prestige-koi-auction/
 │  
 └── README.md        # Project documentation
 ````
+<br>
+<div align="right">
+    <a href="#-table-of-contents">Back to Table of Contents</a>
+</div>
 
 ## :zap: Usage
 ***
@@ -146,7 +165,10 @@ prestige-koi-auction/
     ````bash
     npm run dev
     ````
-
+<br>
+<div align="right">
+    <a href="#-table-of-contents">Back to Table of Contents</a>
+</div>
 ##  :camera: Gallery
 ### Demo
 <div align="center">
@@ -172,6 +194,10 @@ prestige-koi-auction/
 <div align="center">
     <img alt="demo" src="https://github.com/user-attachments/assets/37834407-7296-42f4-9594-76b4bae78b26">
     <img alt="demo" src="https://github.com/user-attachments/assets/3421acf5-cd42-4a04-a0d4-6e4bc63bbd91">
+</div>
+<br>
+<div align="right">
+    <a href="#-table-of-contents">Back to Table of Contents</a>
 </div>
 
 
