@@ -22,6 +22,7 @@
 - [Features Overview](#-features-overview)
 - [Project Structure](#-project-structure)
 - [Usage](#zap-usage)
+- [Notes](#notebook_with_decorative_cover-notes)
 - [Gallery](#camera-gallery)
 - [License](#lock-license)
 
@@ -117,13 +118,16 @@ prestige-koi-auction/
 ### Tools requirements
 - Intellij IDEA (or Commuity edition)
 - Visual Studio Code (or anything code editor)
+- Postman
 
 ### Installation
 
 #### Database
 - We use **localhost** and database name is **Koi_project** for SQL Server in **application.properties**. You can change this based on your device
     ````bash
-    sqlserver://localhost:1433;databaseName=Koi_project
+    spring.datasource.url=jdbc:sqlserver://localhost:1433;databaseName=Koi_project;encrypt=true;trustServerCertificate=true
+spring.datasource.username=sa
+spring.datasource.password=Password@123
     ````
 -  In SQL Server, the **Koi_project** database must already exist, if not,  please use query below: 
     ````bash
@@ -165,6 +169,24 @@ prestige-koi-auction/
     ````bash
     npm run dev
     ````
+
+<br>
+<div align="right">
+    <a href="#ledger-table-of-contents">Back to Table of Contents</a>
+</div>
+
+## :notebook_with_decorative_cover: Note
+***
+- Before fully using the app, we must create **Manager**, **Staff** and **Koi breeder** account first by follow these step:
+    - Open **Postman**
+    - ```Ctrl + N``` then choose HTTP
+    - Switch to ```GET``` method, then enter this endpoint:
+        ````bash
+        http://localhost:8080/authenticate/create-manager-account
+        ````
+    - Send request then in response you will see ```Successfully```.             **Manager** account available now
+    - To create **Staff** and **Koi Breeder** you can use create function of     manager on website. Therefore you just need only **Manager** account 
+***
 
 <br>
 <div align="right">
