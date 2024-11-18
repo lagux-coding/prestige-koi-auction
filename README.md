@@ -186,6 +186,17 @@ spring.datasource.password=Password@123
         ````
     - Send request then in response you will see ```Successfully```.             **Manager** account available now
     - To create **Staff** and **Koi Breeder** you can use create function of     manager on website. Therefore you just need only **Manager** account 
+    ````
+    email: manager@gmail.com
+    password: @manager1
+    ````
+- For VNPay number:
+    ````
+    Số thẻ: 9704195798459170488
+    Tên chủ thẻ: NGUYEN VAN A
+    Ngày phát hành:07/15
+    OTP: 123456
+    ````
 ***
 
 <br>
