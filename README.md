@@ -51,7 +51,9 @@ The system emphasizes:
   - Each lot represents one koi fish for bidding.  
 - **Request Approval Process**:  
   - KoiBreeders submit auction requests.  
-  - Managers approve requests or assign inspections to Staff.  
+  - Manager assign inspection to staff.
+  - Staff check fish then update status on website.
+  - Manager approve checked requests.
 
 ### 💳 **Financial Transactions**  
 - **Deposits and Refunds**:  
