@@ -35,7 +35,7 @@ The system emphasizes:
 
 <br>
 <div align="right">
-    <a href="#-table-of-contents">Back to Table of Contents</a>
+    <a href="#ledger-table-of-contents">Back to Table of Contents</a>
 </div>
 
 ## 🚀 **Features Overview**  
@@ -64,7 +64,7 @@ The system emphasizes:
 
 <br>
 <div align="right">
-    <a href="#-table-of-contents">Back to Table of Contents</a>
+    <a href="#ledger-table-of-contents">Back to Table of Contents</a>
 </div>
 
 ## 🛠️ **Tech Stack**  
@@ -78,7 +78,7 @@ The system emphasizes:
 
 <br>
 <div align="right">
-    <a href="#-table-of-contents">Back to Table of Contents</a>
+    <a href="#ledger-table-of-contents">Back to Table of Contents</a>
 </div>
 
 ## 📂 **Project Structure**  
@@ -165,10 +165,12 @@ prestige-koi-auction/
     ````bash
     npm run dev
     ````
+
 <br>
 <div align="right">
-    <a href="#-table-of-contents">Back to Table of Contents</a>
+    <a href="#ledger-table-of-contents">Back to Table of Contents</a>
 </div>
+
 ##  :camera: Gallery
 ### Demo
 <div align="center">
@@ -197,7 +199,7 @@ prestige-koi-auction/
 </div>
 <br>
 <div align="right">
-    <a href="#-table-of-contents">Back to Table of Contents</a>
+    <a href="#ledger-table-of-contents">Back to Table of Contents</a>
 </div>
 
 
