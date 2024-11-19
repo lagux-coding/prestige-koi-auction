@@ -242,7 +242,7 @@ prestige-koi-auction/
 ##  :lock: License
 [LICENSE](./LICENSE)
 
-## ❓ **Have Questions?**
+## ❓ Have Questions?
 
 If you have any questions or need help, feel free to ask!
 
