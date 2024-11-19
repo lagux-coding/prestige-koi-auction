@@ -115,7 +115,7 @@ prestige-koi-auction/
 - Node.js 18+
 - MSSQL 2019+
 - Maven 3.9+
-- [Redis server](https://github.com/lagux-coding/prestige-koi-auction/blob/main/Redis-x64-5.0.14.1.zip)
+- [Redis server](https://github.com/lagux-coding/prestige-koi-auction/raw/refs/heads/main/Redis-x64-5.0.14.1.zip)
 
 ### Tools requirements
 - Intellij IDEA (or Commuity edition)
@@ -158,7 +158,7 @@ prestige-koi-auction/
 
 #### Back-End
 - Intellij will automatically install all libraries in the pom.xml file
-- Before run project, please unzip [Redis](./Redis-x64-5.0.14.1.zip)
+- Before run project, please unzip [Redis](https://github.com/lagux-coding/prestige-koi-auction/raw/refs/heads/main/Redis-x64-5.0.14.1.zip)
 - Run **redis-server.exe** file to run redis server
 - Run project by click on play button
 
