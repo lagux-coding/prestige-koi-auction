@@ -25,7 +25,7 @@
 - [Notes](#notebook_with_decorative_cover-notes)
 - [Gallery](#camera-gallery)
 - [License](#lock-license)
-- [Have Questions](#have-questions)
+- [Have Questions](#-have-questions)
 
 ##  :beginner: About
 **Prestige Koi Auction** is a modern and user-friendly platform designed to facilitate the buying and selling of koi fish through live auctions. Built with scalability and transparency in mind, this platform enables **Koi Breeders**, **Managers**, **Staff**, and **Members** to interact seamlessly while maintaining fair and organized auctions.  
