@@ -180,7 +180,7 @@ prestige-koi-auction/
 
 ## :notebook_with_decorative_cover: Notes
 ***
-- Before fully using the app, we must create **Manager**, **Staff** and **Koi breeder** account first by follow these step:
+- Before fully using the app, we must create **Manager**, **Staff** and **Koi breeder** account first by follow these steps:
     - Open **Postman**
     - ```Ctrl + N``` then choose HTTP
     - Switch to ```GET``` method, then enter this endpoint:
@@ -188,7 +188,7 @@ prestige-koi-auction/
         http://localhost:8080/authenticate/create-manager-account
         ````
     - Send request then in response you will see ```Successfully```.             **Manager** account available now
-    - To create **Staff** and **Koi Breeder** you can use create function of     manager on website. Therefore you just need only **Manager** account 
+    - To create **Staff** and **Koi Breeder** you can use create function of     manager on website. Therefore, you just need only **Manager** account 
         ````
         email: manager@gmail.com
         password: @manager1
