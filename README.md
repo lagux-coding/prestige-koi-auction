@@ -109,7 +109,7 @@ prestige-koi-auction/
 
 ## :zap: Usage
 ***
-    This guideline is only for Windows 
+    This guideline is made for Windows 
 
 ### Environment Requirements
 - Java 21
